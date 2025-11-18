@@ -185,3 +185,7 @@ Lab 3: https://docs.google.com/document/d/1Oo8SUQS7kIzVoNvqmxhO7aJodMuJ3rrG/edit
 
 # ULTRA NETWORKING REPORT
 https://github.com/TingleDinkle/Notes-for-Networking/blob/6e62d6a7f599559214277c0aed56a4d1c0f32aa2/ULTRA%20NETWORKING%20GRAHH.pdf
+
+# First simple network config successfully!
+
+https://www.youtube.com/watch?v=37izIpHXFRg
