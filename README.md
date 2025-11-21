@@ -268,4 +268,4 @@ the switch HAVE to be in mode client to access the VTP - Server
 
 which needs domain and password too to actually get the VLAN, so not everyone can just come in and grab it.
 
-# VLAN Network System setup(in progress):
+# VLAN Network System configuration(in progress):
