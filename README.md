@@ -190,7 +190,7 @@ https://github.com/TingleDinkle/Notes-for-Networking/blob/6e62d6a7f599559214277c
 
 https://www.youtube.com/watch?v=37izIpHXFRg
 
-VLAN Config Stuff:
+# VLAN Config Stuff:
 
 Dividing VLAN:
 - Number of devices(expected) = n
