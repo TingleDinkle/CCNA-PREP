@@ -282,4 +282,6 @@ Assinging IP Address in the Switch-Core using this(calculate subnet from the IP 
 
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/6ea1b499ee5458125afe615dd330a1f4767291bc/z7223587882587_728cc2f7badc5d4406a9475cc880e48b.jpg)
 
+do AFTER you're done with all the VTP and VLAN configs!
+
 # VLAN Network System configuration(in progress):
