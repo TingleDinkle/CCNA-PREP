@@ -286,6 +286,8 @@ do AFTER you're done with all the VTP and VLAN configs!
 
 Now if you succeed in sending a packet to a different subnet range, SUCCESS!!!
 
-# DHCP(in progress):
+# DHCP assigning example:
+
+![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/dab823539e8d0ab8b2f851454664bfe90089a41f/Screenshot%202025-11-21%20161255.png)
 
 # VLAN Network System configuration(in progress but near finish):
