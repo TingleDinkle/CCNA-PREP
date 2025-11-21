@@ -217,10 +217,7 @@ VTP password:<pass_word> (space = also death)
 trunk: many VLANs
 access: 1 VLAN
 
-client <- server -> transparent -> client
-            |           |
-            v           v
-          client     client
+![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/d38600efd6eeb3a29dc19e73fd0c2f458d8bbfe0/Screenshot%202025-11-21%20131717.png)
 
 Config and settings go into vlan.dat (short for database btw)
 
