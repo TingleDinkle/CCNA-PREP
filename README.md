@@ -253,7 +253,7 @@ Config VLAN:
 Normal Switch:
 
 Config VTP:
-- vtp mode server
+- vtp mode client
 - vtp domain nyc.com
 - vtp password 123
 
