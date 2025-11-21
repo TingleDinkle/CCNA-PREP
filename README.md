@@ -105,9 +105,9 @@ For example: your way to school have two ways, one is 5km, one is 10km, yet, the
 
 - Connects to IP Addresses outside of the LAN.
 
- -Gateway-Router-IP
+ - Gateway-Router-IP
 
- -Port-Switch
+ - Port-Switch
 
 Cisco Packet Tracer:
 >: limited
