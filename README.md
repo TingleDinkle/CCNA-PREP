@@ -194,18 +194,25 @@ VLAN Config Stuff:
 
 Dividing VLAN:
 - Number of devices(expected) = n
+  
 - 2^(32 - prefix length) - 2 >= n
+  
 => prefix length [i...., 32)
 
 IP: host = 0
+
 IP Broadcast: host = 1
+
 First Address: everything...1
+
 Last Address: 1111...0
 
 VTP, or VLAN Trunking Protocol
 
 Switch:
+
 -> int ...
+
 -> switchport mode access
 
 VTP mode: server/client/transparent
@@ -215,6 +222,7 @@ VTP domain: <name_of_domain> (space = death)
 VTP password:<pass_word> (space = also death)
 
 trunk: many VLANs
+
 access: 1 VLAN
 
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/d38600efd6eeb3a29dc19e73fd0c2f458d8bbfe0/Screenshot%202025-11-21%20131717.png)
@@ -224,7 +232,7 @@ Config and settings go into vlan.dat (short for database btw)
 Switch core (Multilayer Switch): Operates at layer 3 in OSI, which means it could work as both a router and a switch
 
 Config VTP:
-- vtp mode server
+- vtp mode server 
 - vtp domain nyc.com
 - vtp password 123
 
