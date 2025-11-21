@@ -211,9 +211,9 @@ VTP, or VLAN Trunking Protocol
 
 Switch:
 
--> int ...
+> int ...
 
--> switchport mode access
+> switchport mode access
 
 VTP mode: server/client/transparent
 
@@ -234,35 +234,35 @@ Config and settings go into vlan.dat (short for database btw)
 Switch core (Multi-layer Switch): Operates at layer 3 in OSI, which means it could work as both a router and a switch
 
 Config VTP:
-- vtp mode server 
-- vtp domain nyc.com
-- vtp password 123
+> vtp mode server 
+> vtp domain nyc.com
+> vtp password 123
 
 Config VLAN:
-- vlan 10
-- name Teacher
-- vlan 20
-- name Staff
-- vlan 30
-- name CEO
-- vlan 100
-- name Server
-- vlan 50
-- name Student
+> vlan 10
+> name Teacher
+> vlan 20
+> name Staff
+> vlan 30
+> name CEO
+> vlan 100
+> name Server
+> vlan 50
+> name Student
 
 Normal Switch:
 
 Config VTP:
-- vtp mode client
-- vtp domain nyc.com
-- vtp password 123
+> vtp mode client
+> vtp domain nyc.com
+> vtp password 123
 
-- do show vlan brief (shows what you have done)
+> do show vlan brief (shows what you have done)
 
 Config trunk:
-- int range f0/1-3
-- switch trunk encap dot1q (802.1Q)
-- switch mode trunk
+> int range f0/1-3
+> switch trunk encap dot1q (802.1Q)
+> switch mode trunk
   
 the switch HAVE to be in mode client to access the VTP - Server
 
