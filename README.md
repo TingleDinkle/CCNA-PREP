@@ -227,7 +227,7 @@ access: 1 VLAN
 
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/d38600efd6eeb3a29dc19e73fd0c2f458d8bbfe0/Screenshot%202025-11-21%20131717.png)
 
-ALTHOUGH mode transparent is rarely used, could be ignored (for now)
+ALTHOUGH mode transparent is rarely used and probably really trash, could be ignored (for now)
 
 Config and settings go into vlan.dat (short for database btw)
 
