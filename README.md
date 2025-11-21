@@ -222,6 +222,7 @@ VTP domain: <name_of_domain> (space = death)
 VTP password:<pass_word> (space = also death)
 
 trunk: many VLANs
+(could be trunked so that many VLANs can go through the same port)
 
 access: 1 VLAN
 
