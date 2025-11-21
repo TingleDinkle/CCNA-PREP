@@ -1,5 +1,5 @@
-# Notes-for-Networking
-My notes while I'm learning about networks!
+# ROAD TO CCNA
+My notes while I'm learning about networks, and materials to gain CCNA.
 
 Also some labs and assignments.
 
