@@ -231,7 +231,9 @@ ALTHOUGH mode transparent is rarely used and probably really trash, could be ign
 
 Config and settings go into vlan.dat (short for database btw)
 
-Switch core (Multi-layer Switch): Operates at layer 3 in OSI, which means it could work as both a router and a switch
+Switch core (Multi-layer Switch): Operates at layer 3 in OSI, which means it could work as both a router and a switch.
+
+You use a router to ping between different subnets using a router, which also means you can use a Switch Core to do this.
 
 Config VTP:
 > vtp mode server
