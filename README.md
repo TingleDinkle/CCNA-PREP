@@ -278,4 +278,8 @@ the switch HAVE to be in mode client to access the VTP - Server
 
 which needs domain and password too to actually get the VLAN, so not everyone can just come in and grab it.
 
+Assinging IP Address in the Switch-Core using this(calculate subnet from the IP given for each department in the picture):
+
+![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/6ea1b499ee5458125afe615dd330a1f4767291bc/z7223587882587_728cc2f7badc5d4406a9475cc880e48b.jpg)
+
 # VLAN Network System configuration(in progress):
