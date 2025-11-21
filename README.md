@@ -284,4 +284,8 @@ Assinging IP Address in the Switch-Core using this(calculate subnet from the IP 
 
 do AFTER you're done with all the VTP and VLAN configs!
 
-# VLAN Network System configuration(in progress):
+Now if you succeed in sending a packet to a different subnet range, SUCCESS!!!
+
+# DHCP(in progress):
+
+# VLAN Network System configuration(in progress but near finish):
