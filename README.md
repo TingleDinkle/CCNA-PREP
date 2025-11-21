@@ -189,3 +189,71 @@ https://github.com/TingleDinkle/Notes-for-Networking/blob/6e62d6a7f599559214277c
 # First simple network config successfully!
 
 https://www.youtube.com/watch?v=37izIpHXFRg
+
+VLAN Config Stuff:
+
+Dividing VLAN:
+- Number of devices(expected) = n
+- 2^(32 - prefix length) - 2 >= n
+=> prefix length [i...., 32)
+
+IP: host = 0
+IP Broadcast: host = 1
+First Address: everything...1
+Last Address: 1111...0
+
+VTP, or VLAN Trunking Protocol
+
+Switch:
+-> int ...
+-> switchport mode access
+
+VTP mode: server/client/transparent
+
+VTP domain: <name_of_domain> (space = death)
+
+VTP password:<pass_word> (space = also death)
+
+trunk: many VLANs
+access: 1 VLAN
+
+client <- server -> transparent -> client
+            |           |
+            v           v
+          client     client
+
+Config and settings go into vlan.dat (short for database btw)
+
+Switch core (Multilayer Switch): Operates at layer 3 in OSI, which means it could work as both a router and a switch
+
+Config VTP:
+- vtp mode server
+- vtp domain nyc.com
+- vtp password 123
+
+Config VLAN:
+- vlan 10
+- name Teacher
+- vlan 20
+- name Staff
+- vlan 30
+- name CEO
+- vlan 100
+- name Server
+- vlan 50
+- name Student
+
+Normal Switch:
+
+Config VTP:
+- vtp mode server
+- vtp domain nyc.com
+- vtp password 123
+
+- do show vlan brief (shows what you have done)
+
+Config trunk:
+- int range f0/1-3
+- switch trunk encap dot
+- switch mode trunk
+
