@@ -261,7 +261,7 @@ Config VTP:
 
 Config trunk:
 - int range f0/1-3
-- switch trunk encap dot1q (802.1)
+- switch trunk encap dot1q (802.1Q)
 - switch mode trunk
   
 the switch HAVE to be in mode client to access the VTP - Server
