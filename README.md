@@ -263,5 +263,9 @@ Config trunk:
 - int range f0/1-3
 - switch trunk encap dot
 - switch mode trunk
+  
+the switch HAVE to be in mode client to access the VTP - Server
+
+which needs domnain and password too to actually get the VLAN, so not everyone can just come in and grab it.
 
 # VLAN Network System setup(in progress):
