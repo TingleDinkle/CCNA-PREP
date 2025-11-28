@@ -315,7 +315,8 @@ Remote Connect => Routing Table (needs Routing Table, far connection)
 => Default Routing: Stub Routes
 => Static Routing: ip route networkadd subnetmask IPnext
 
-Once all DHCP, config and otherwise are correct, you can now see the html and the website clearly 
+Once all DHCP, IP config and subnet mask config or otherwise are correct, you can now see the html and the website clearly 
+
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/6b15a8da60fbae0e49dac0d3fee0532a7b2d5085/Screenshot%202025-11-28%20135138.png)
 (written HTML)
 
