@@ -337,4 +337,6 @@ TODO:
 
 
 
-# VLAN Network System configuration(in progress but near finish):
+# VLAN Network System configuration(FINISHED):
+
+https://www.youtube.com/watch?v=Pcj5t03UXAU
