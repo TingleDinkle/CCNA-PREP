@@ -315,6 +315,13 @@ Remote Connect => Routing Table (needs Routing Table, far connection)
 => Default Routing: Stub Routes
 => Static Routing: ip route networkadd subnetmask IPnext
 
+Once all DHCP, config and otherwise are correct, you can now see the html and the website clearly 
+![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/6b15a8da60fbae0e49dac0d3fee0532a7b2d5085/Screenshot%202025-11-28%20135138.png)
+(written HTML)
+
+![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/4d9fae66df1d868446674264e8ca66e0b0233758/Screenshot%202025-11-28%20140941.png)
+(HTML connection successful)
+
 TODO:
 
 1. Learn Wireless
@@ -322,6 +329,7 @@ TODO:
 2. ACL - Access Lost Control (permit/deny)
 
 3. NAT: Network Address Transform
+
 
 
 # VLAN Network System configuration(in progress but near finish):
