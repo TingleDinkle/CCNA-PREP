@@ -290,4 +290,38 @@ Now if you succeed in sending a packet to a different subnet range, SUCCESS!!!
 
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/dab823539e8d0ab8b2f851454664bfe90089a41f/Screenshot%202025-11-21%20161255.png)
 
+Basic Summary of Steps
+
+1. VTP -> Server - Switch - Core
+       -> Client - Switch - Core
+
+2. Vlans - Sw - core
+
+3. Trunk -> Assign Port to VLAN
+
+4. Sw - Core -> Routing (important): IP Routing
+
+5. Create default gateway for each VLAN (create subinterface in Sw - core)
+
+6. Assign dynamic IP add for each end device (DHCP)
+
+  6*. Web + DNS
+
+7. Routing Table Building
+
+Direct Connect X Routing Table (no need to build Routing Table, near connection)
+
+Remote Connect => Routing Table (needs Routing Table, far connection)
+=> Default Routing: Stub Routes
+=> Static Routing: ip route networkadd subnetmask IPnext
+
+TODO:
+
+1. Learn Wireless
+
+2. ACL - Access Lost Control (permit/deny)
+
+3. NAT: Network Address Transform
+
+
 # VLAN Network System configuration(in progress but near finish):
