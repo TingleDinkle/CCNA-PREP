@@ -320,6 +320,8 @@ Once all DHCP, IP config and subnet mask config or otherwise are correct, you ca
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/6b15a8da60fbae0e49dac0d3fee0532a7b2d5085/Screenshot%202025-11-28%20135138.png)
 (written HTML)
 
+
+
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/4d9fae66df1d868446674264e8ca66e0b0233758/Screenshot%202025-11-28%20140941.png)
 (HTML connection successful)
 
