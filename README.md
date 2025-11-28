@@ -312,8 +312,10 @@ Basic Summary of Steps
 Direct Connect X Routing Table (no need to build Routing Table, near connection)
 
 Remote Connect => Routing Table (needs Routing Table, far connection)
-=> Default Routing: Stub Routes
-=> Static Routing: ip route networkadd subnetmask IPnext
+
+-> Default Routing: Stub Routes
+
+-> Static Routing: ip route networkadd subnetmask IPnext
 
 Once all DHCP, IP config and subnet mask config or otherwise are correct, you can now see the html and the website clearly 
 
