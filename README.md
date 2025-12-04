@@ -331,7 +331,7 @@ TODO:
 
 1. Learn Wireless
 
-2. ACL - Access Lost Control (permit/deny)
+2. ACL - Access Control List (permit/deny)
 
 3. NAT: Network Address Transform
 
