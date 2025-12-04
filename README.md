@@ -292,18 +292,21 @@ Now if you succeed in sending a packet to a different subnet range, SUCCESS!!!
 
 Basic Summary of Steps
 
-1. VTP -> Server - Switch - Core
-       -> Client - Switch - Core
+1. VTP
+   
+   -> Server - Switch - Core
+   
+   -> Client - Switch - Core
 
-2. Vlans - Sw - core
+4. Vlans - Sw - core
 
-3. Trunk -> Assign Port to VLAN
+5. Trunk -> Assign Port to VLAN
 
-4. Sw - Core -> Routing (important): IP Routing
+6. Sw - Core -> Routing (important): IP Routing
 
-5. Create default gateway for each VLAN (create subinterface in Sw - core)
+7. Create default gateway for each VLAN (create subinterface in Sw - core)
 
-6. Assign dynamic IP add for each end device (DHCP)
+8. Assign dynamic IP add for each end device (DHCP)
 
 6. Web + DNS *
 
