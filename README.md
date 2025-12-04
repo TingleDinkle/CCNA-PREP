@@ -305,7 +305,7 @@ Basic Summary of Steps
 
 6. Assign dynamic IP add for each end device (DHCP)
 
-  6*. Web + DNS
+6. Web + DNS *
 
 7. Routing Table Building
 
