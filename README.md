@@ -300,7 +300,7 @@ Basic Summary of Steps
 
 2. Vlans - Sw - core
 
-3. Trunk -> Assign Port to VLAN
+3. Trunk (assign VLANs to switches node client) -> Assign Port to VLAN
 
 4. Sw - Core -> Routing (important): IP Routing
 
