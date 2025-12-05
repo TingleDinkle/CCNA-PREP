@@ -348,13 +348,69 @@ example:
 
 > ip access-group 10 out
 
+# NAT Overload (PAT)
+
+syntaxes:
+
+> interface []
+
+> ip nat inside
+
+> interface []
+
+> ip nat outside
+
+> access-list [1-99] permit [network] [wildcard]
+
+> ip nat inside source list [ID] interface [] overload
+
+example:
+
+> int g0/1
+
+> ip nat inside
+
+> int s0/0/0
+
+> ip nat outside
+
+> access-list 10 permit 192.168.1.0 0.0.0.255
+
+> ip nat inside source list 10 interface s0/0/0 overload
+
+# Static NAT
+
+syntaxes:
+
+> interface []
+
+> ip nat inside
+
+> interface []
+
+> ip nat outside
+
+> ip nat inside source static [local-ip] [global-ip]
+
+example:
+
+> int g0/1
+
+> ip nat inside
+
+> int s0/0/0
+
+> ip nat outside
+
+> ip nat inside source static 192.168.1.50 209.165.200.225
+
 TODO:
 
-1. Config Wireless
+1. Config Wireless ???tf
 
-2. Config ACL - Access Control List (permit/deny) student subnet so that it blocks the student from beimng able to ping 8.8.10.0/24 (or Facebook/Google server)
+2. Config ACL - Access Control List (permit/deny) student subnet so that it blocks the student from being able to ping 8.8.10.0/24 (or Facebook/Google server)
 
-3. Config NAT: Network Address Transform on Border Router
+3. Config NAT: Network Address Transform on Border Router so that all the mfs outside can only see the NAT-ed IP instead of the actual IP.
 
 
 
