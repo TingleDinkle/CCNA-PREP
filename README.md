@@ -330,6 +330,24 @@ Once all DHCP, IP config and subnet mask config or otherwise are correct, you ca
 ![image alt](https://github.com/TingleDinkle/CCNA-PREP/blob/4d9fae66df1d868446674264e8ca66e0b0233758/Screenshot%202025-11-28%20140941.png)
 (HTML connection successful)
 
+# ACL IP
+syntaxes:
+
+> access-list [1-99] [petmit/deny]
+
+> interface []
+
+> ip access-group [access-list ID] [in/out]
+
+example:
+> access-list 10 deny 182.168.50.0
+
+> access-list 10 permit any
+
+> int g0/1
+
+> ip access-group 10 out
+
 TODO:
 
 1. Learn Wireless
