@@ -298,15 +298,15 @@ Basic Summary of Steps
    
    -> Client - Switch - Core
 
-4. Vlans - Sw - core
+2. Vlans - Sw - core
 
-5. Trunk -> Assign Port to VLAN
+3. Trunk -> Assign Port to VLAN
 
-6. Sw - Core -> Routing (important): IP Routing
+4. Sw - Core -> Routing (important): IP Routing
 
-7. Create default gateway for each VLAN (create subinterface in Sw - core)
+5. Create default gateway for each VLAN (create subinterface in Sw - core)
 
-8. Assign dynamic IP add for each end device (DHCP)
+6. Assign dynamic IP add for each end device (DHCP)
 
 6. Web + DNS *
 
