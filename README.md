@@ -352,9 +352,9 @@ TODO:
 
 1. Learn Wireless
 
-2. ACL - Access Control List (permit/deny)
+2. Config ACL - Access Control List (permit/deny) of subent range for students on PC
 
-3. NAT: Network Address Transform
+3. Config NAT: Network Address Transform on Border Router
 
 
 
