@@ -350,9 +350,9 @@ example:
 
 TODO:
 
-1. Learn Wireless
+1. Config Wireless
 
-2. Config ACL - Access Control List (permit/deny) of subent range for students on PC
+2. Config ACL - Access Control List (permit/deny) student subnet so that it blocks the student from beimng able to ping 8.8.10.0/24 (or Facebook/Google server)
 
 3. Config NAT: Network Address Transform on Border Router
 
