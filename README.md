@@ -419,3 +419,5 @@ TODO:
 https://www.youtube.com/watch?v=Pcj5t03UXAU
 
 THIS CAN BE FOUND IN FOLDER `packet-tracer` and can be run via `Cisco Packet Tracer`.  
+
+It should be noted that the file does not contain configurations for ACL, NAT or Wireless. It is a base network that you can experiment upon with more advanced features.
